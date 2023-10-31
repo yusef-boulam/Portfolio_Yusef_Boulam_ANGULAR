@@ -80,7 +80,7 @@ export class ProjectsService {
     },
   ];
 
-  // pourra ensuite etre utilisé pour recuperer les projets sur le serveur
+  // can then be used to retrieve the projects on the server
   getAllProjects(): Project[] {
     return this.projects;
   }
