@@ -17,8 +17,4 @@ export class ProjectComponent {
   tag!: string;
 
   ngOnInit(): void {}
-
-  // showDescription(): void {
-  //   alert('Description du projet');
-  // }
 }
