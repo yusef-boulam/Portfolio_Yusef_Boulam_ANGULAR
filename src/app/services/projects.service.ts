@@ -69,6 +69,15 @@ export class ProjectsService {
       externalUrl: 'https://yusef-location-immobilie-7a12e.web.app',
       tag: 'REACT',
     },
+    {
+      id: 7,
+      title: 'Devi Métal',
+      description: 'Portfolio réalisé pour une auto-entreprise.',
+      logoUrl: '../../assets/images/project/devi_metal_logo.png',
+      imageUrl: '../../assets/images/project/devi_metal_image.png',
+      externalUrl: 'https://devimetal.fr',
+      tag: 'Angular',
+    },
   ];
 
   // pourra ensuite etre utilisé pour recuperer les projets sur le serveur
