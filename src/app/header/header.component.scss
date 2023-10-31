@@ -1,0 +1,47 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #EEE;
+  margin-bottom: 20px;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  min-width: 220px;
+  max-width: 2000px;
+  margin: auto;
+}
+
+nav{
+  margin-right: 20px;
+}
+
+.name {
+  margin: 20px;
+  font-size: 24px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+a {
+  font-size:  20px;
+  margin: 0 50px 0 10px;
+  color: #050505;
+  text-decoration: none;
+}
+
+.active {
+  color: #0073ff;
+}
+
+
+@media screen and (max-width: 735px) {
+
+  nav{
+    margin-right: 20px;
+  }
+  a{
+    margin-right: 20px;
+  }
+}

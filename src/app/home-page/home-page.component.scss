@@ -1,0 +1,76 @@
+section{
+  width:50%;
+  margin: 117px auto 30px 161px;
+  min-width: 220px;
+  line-height: 1.5;
+ }
+
+
+img {
+  height: 140px;
+}
+
+.presentation{
+  margin-bottom: 20px;
+}
+
+h1{
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+h2{
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 300;
+  margin: 2px;
+}
+
+button {
+margin-top:  30px;
+height: 30px;
+font-size: 15px;
+padding: 5px;
+background-color: #333;
+color: white;
+border: none;
+// mettre de l ombre
+box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+cursor: pointer;
+}
+
+button:hover {
+  background-color: #0073ff;;
+  transition: 0.5s;
+}
+
+
+// pour les ecrans en dessous de 600px
+@media screen and (max-width: 600px) {
+  section{
+    width: 90%;
+    margin: 117px auto 30px auto;
+    text-align: center;
+  }
+
+  p, h1, h2{
+    text-align: left;
+  }
+}
+
+
+
+@media screen and (max-width: 735px) {
+  section{
+margin-top: 150px;
+  }
+
+
+
+  }

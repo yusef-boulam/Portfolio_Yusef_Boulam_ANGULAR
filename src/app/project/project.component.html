@@ -1,0 +1,11 @@
+<a href="{{project.externalUrl}}" target="_blank" rel="noopener noreferrer">
+  <div class="project-card">
+    <div class="container-logo-tag">
+      <img class="logo" [src]="project.logoUrl" alt="logo">
+      <div class="tag">{{project.tag}}</div>
+    </div>
+    <img class="picture" [src]="project.imageUrl" alt="image">
+    <!-- <button (click)="showDescription()">Description</button> -->
+    <p>{{project.description}}</p>
+  </div>
+</a>
