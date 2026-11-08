@@ -6,10 +6,13 @@ a {
 .project-card {
   box-sizing: border-box;
   width: 265px;
-  height: 300px;
+  height: 400px;
   margin: 50px 10px 10px 10px;
   padding: 10px 30px;
   box-shadow: rgb(188, 187, 187) 4px 4px 20px;
+  display: flex;
+flex-direction: column;
+
 }
 
 .project-card:hover {
@@ -71,4 +74,13 @@ a {
   line-height: 10px;
   color:  #333
 
+}
+
+.project-link {
+  display: block;
+  margin-top: auto;
+  padding-bottom: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #2563eb;
 }

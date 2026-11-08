@@ -1,10 +1,16 @@
-<a href="{{project.externalUrl}}" target="_blank" rel="noopener noreferrer">
+<a [href]="project.externalUrl" target="_blank" rel="noopener noreferrer">
   <div class="project-card">
     <div class="container-logo-tag">
-      <img class="logo" [src]="project.logoUrl" alt="logo">
-      <div class="tag">{{project.tag}}</div>
+      <img class="logo" [src]="project.logoUrl" alt="Logo du projet">
+      <div class="tag">{{ project.tag }}</div>
     </div>
-    <img class="picture" [src]="project.imageUrl" alt="image">
-    <p>{{project.description}}</p>
+
+    <img class="picture" [src]="project.imageUrl" alt="Aperçu du projet">
+
+    <p>{{ project.description }}</p>
+
+    <span class="project-link">
+      {{ project.externalUrl.includes('github.com') ? 'Voir le code sur GitHub' : 'Voir le site' }} ↗
+    </span>
   </div>
 </a>
