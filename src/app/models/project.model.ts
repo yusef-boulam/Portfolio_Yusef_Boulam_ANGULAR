@@ -1,6 +1,7 @@
 export class Project {
   id!: number;
-  externalUrl!: string;
+  siteUrl?: string;
+  githubUrl?: string;
   title!: string;
   description!: string;
   logoUrl!: string;

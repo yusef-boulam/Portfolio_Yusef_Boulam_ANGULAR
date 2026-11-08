@@ -1,16 +1,20 @@
-<a [href]="project.externalUrl" target="_blank" rel="noopener noreferrer">
-  <div class="project-card">
-    <div class="container-logo-tag">
-      <img class="logo" [src]="project.logoUrl" alt="Logo du projet">
-      <div class="tag">{{ project.tag }}</div>
-    </div>
-
-    <img class="picture" [src]="project.imageUrl" alt="Aperçu du projet">
-
-    <p>{{ project.description }}</p>
-
-    <span class="project-link">
-      {{ project.externalUrl.includes('github.com') ? 'Voir le code sur GitHub' : 'Voir le site' }} ↗
-    </span>
+<div class="project-card">
+  <div class="container-logo-tag">
+    <img class="logo" [src]="project.logoUrl" alt="Logo du projet">
+    <div class="tag">{{ project.tag }}</div>
   </div>
-</a>
+
+  <img class="picture" [src]="project.imageUrl" alt="Aperçu du projet">
+
+  <p>{{ project.description }}</p>
+
+  <div class="project-links">
+    <a *ngIf="project.siteUrl" [href]="project.siteUrl" target="_blank" rel="noopener noreferrer">
+      Voir le site ↗
+    </a>
+
+    <a *ngIf="project.githubUrl" [href]="project.githubUrl" target="_blank" rel="noopener noreferrer">
+      GitHub ↗
+    </a>
+  </div>
+</div>
