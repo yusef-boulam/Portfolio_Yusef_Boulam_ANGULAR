@@ -8,10 +8,10 @@ import { Component } from '@angular/core';
 export class HomePageComponent {
   constructor() {}
 
-  picture: string = '../../assets/images/homePage/profile.png';
-  title: string = 'Développeur Front-end / Back-end / Fullstack';
+  picture: string = '../../assets/images/homePage/profile.jpeg';
+  title: string = 'Développeur Full Stack';
   presentation: string =
-    'Développeur intégrateur web diplômé et passionné, j’ai réalisé une application web avec la librairie ReactJS sur la partie front-end et créé une API RESTful avec NodeJS sur la partie back-end.';
+    'Diplômé en développement web, j’ai réalisé plusieurs projets avec Angular, React et Node.js. Fort de mon expérience dans les télécommunications et la résolution de problèmes techniques, je souhaite aujourd’hui évoluer vers le développement logiciel.';
   titleSkils: string = 'Compétences:';
   skilsFront: string = 'HTML, CSS, JavaScript, TypeScript, React, Angular';
   skilsBack: string = 'NodeJS, ExpressJS, MongoDB';
