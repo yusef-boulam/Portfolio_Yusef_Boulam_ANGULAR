@@ -7,6 +7,46 @@ import { Project } from '../models/project.model';
 export class ProjectsService {
   projects: Project[] = [
     {
+      id: 7,
+      title: 'Soudures et Métal',
+      description:
+        'Site vitrine développé avec Angular et TypeScript pour présenter une activité artisanale de soudure et de métallerie.',
+      logoUrl: '../../assets/images/project/devi_metal_logo.png',
+      imageUrl: '../../assets/images/project/devi_metal_image.png',
+      externalUrl: 'https://portfolio-devimetal.web.app/',
+      tag: 'Angular / TypeScript',
+    },
+    {
+      id: 6,
+      title: 'Kasa',
+      description: 'Application web de location immobilière.',
+      logoUrl: '../../assets/images/project/logo_kasa.svg',
+      imageUrl: '../../assets/images/project/kasa_image.png',
+      externalUrl: 'https://yusef-location-immobilie-7a12e.web.app',
+      tag: 'REACT',
+    },
+    {
+      id: 5,
+      title: 'Hot Takes',
+      description:
+        "Création de l'API RESTful pour un site d'avis gastronomiques.",
+      logoUrl: '../../assets/images/project/logo_hotTakes.png',
+      imageUrl: '../../assets/images/project/hotTakes_image.png',
+      externalUrl:
+        'https://github.com/yusef-boulam/Construisez-une-API-securisee-pour-une-application-d-avis-gastronomiques-NODE.JS',
+      tag: 'NodeJS',
+    },
+    {
+      id: 8,
+      title: 'Cutlabxl',
+      description:
+        'Site vitrine WordPress réalisé pour une activité de découpe et d’impression 3D, présentant les prestations, les réalisations et les demandes de devis.',
+      logoUrl: '../../assets/images/project/logo_cutlabxl.png',
+      imageUrl: '../../assets/images/project/cutlabxl_image.png',
+      externalUrl: 'https://cutlabxl.com/',
+      tag: 'WordPress',
+    },
+    {
       id: 1,
       title: 'Booki',
       description:
@@ -48,35 +88,6 @@ export class ProjectsService {
       externalUrl:
         'https://github.com/yusef-boulam/Construisez_un_site_e_commerce_en_JavaScript',
       tag: 'JavaScript',
-    },
-    {
-      id: 5,
-      title: 'Hot Takes',
-      description:
-        "Création de l'API RESTful pour un site d'avis gastronomiques.",
-      logoUrl: '../../assets/images/project/logo_hotTakes.png',
-      imageUrl: '../../assets/images/project/hotTakes_image.png',
-      externalUrl:
-        'https://github.com/yusef-boulam/Construisez-une-API-securisee-pour-une-application-d-avis-gastronomiques-NODE.JS',
-      tag: 'NodeJS',
-    },
-    {
-      id: 6,
-      title: 'Kasa',
-      description: 'Application web de location immobilière.',
-      logoUrl: '../../assets/images/project/logo_kasa.svg',
-      imageUrl: '../../assets/images/project/kasa_image.png',
-      externalUrl: 'https://yusef-location-immobilie-7a12e.web.app',
-      tag: 'REACT',
-    },
-    {
-      id: 7,
-      title: 'Devi Métal',
-      description: 'Portfolio réalisé pour une auto-entreprise.',
-      logoUrl: '../../assets/images/project/devi_metal_logo.png',
-      imageUrl: '../../assets/images/project/devi_metal_image.png',
-      externalUrl: 'https://devimetal.fr',
-      tag: 'Angular',
     },
   ];
 
