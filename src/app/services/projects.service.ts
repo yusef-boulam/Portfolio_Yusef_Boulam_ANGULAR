@@ -13,6 +13,8 @@ export class ProjectsService {
         "Prototype de la Home Page d'un site web de planification de vacances.",
       logoUrl: '../../assets/images/project/logo_booki.png',
       imageUrl: '../../assets/images/project/booki_image.png',
+      githubUrl:
+        'https://github.com/yusef-boulam/Transformez_une_maquette_en_site_web_avec_HTML_-_CSS_Boulam_Yusef',
       siteUrl:
         'https://yusef-boulam.github.io/Transformez_une_maquette_en_site_web_avec_HTML_-_CSS_Boulam_Yusef/',
       tag: 'HTML / CSS',
@@ -24,6 +26,8 @@ export class ProjectsService {
         'Prototype web "mobile first" qui répertorie les menus des restaurants gastronomiques.',
       logoUrl: '../../assets/images/project/logo_ohmyfood.png',
       imageUrl: '../../assets/images/project/ohmyfood_image.png',
+      githubUrl:
+        'https://github.com/yusef-boulam/Dynamisez_une_page_web_avec_des_animations_CSS_Yusef_Boulam',
       siteUrl:
         'https://yusef-boulam.github.io/Dynamisez_une_page_web_avec_des_animations_CSS_Yusef_Boulam/',
       tag: 'Animation CSS',
@@ -35,6 +39,8 @@ export class ProjectsService {
         "Optimisation du site de l'agence de web design sur l'Accessibilité et le SEO.",
       logoUrl: '../../assets/images/project/logo_laPanthere.svg',
       imageUrl: '../../assets/images/project/laPanthere_image.png',
+      githubUrl:
+        'https://github.com/yusef-boulam/Nouvelle_version_optimisez_un_site_web_existant-ACCESSIBILITE-SEO',
       siteUrl:
         'https://yusef-boulam.github.io/Nouvelle_version_optimisez_un_site_web_existant-ACCESSIBILITE-SEO/index.html',
       tag: 'HTML / CSS',
@@ -78,8 +84,8 @@ export class ProjectsService {
         'Site vitrine développé avec Angular et TypeScript pour présenter une activité artisanale de soudure et de métallerie..',
       logoUrl: '../../assets/images/project/devi_metal_logo.png',
       imageUrl: '../../assets/images/project/devi_metal_image.png',
-      siteUrl: 'https://portfolio-devimetal.web.app/',
       githubUrl: 'https://github.com/yusef-boulam/Metal_Angular',
+      siteUrl: 'https://portfolio-devimetal.web.app/',
       tag: 'Angular',
     },
     {

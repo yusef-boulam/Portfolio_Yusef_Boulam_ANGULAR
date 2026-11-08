@@ -9,12 +9,12 @@
   <p>{{ project.description }}</p>
 
   <div class="project-links">
-    <a *ngIf="project.siteUrl" [href]="project.siteUrl" target="_blank" rel="noopener noreferrer">
-      Voir le site ↗
-    </a>
-
     <a *ngIf="project.githubUrl" [href]="project.githubUrl" target="_blank" rel="noopener noreferrer">
-      GitHub ↗
+      GitHub
+
+    </a>
+    <a *ngIf="project.siteUrl" [href]="project.siteUrl" target="_blank" rel="noopener noreferrer">
+      Voir le site
     </a>
   </div>
 </div>
