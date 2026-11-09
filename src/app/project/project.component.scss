@@ -93,3 +93,12 @@ flex-direction: column;
     }
   }
 }
+
+
+//MOBILE
+
+@media (max-width: 600px) {
+  .project-card {
+    margin-top: 25px;
+  }
+}

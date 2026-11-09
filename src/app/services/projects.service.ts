@@ -10,7 +10,7 @@ export class ProjectsService {
       id: 7,
       title: 'Devi Métal',
       description:
-        'Site vitrine développé avec Angular et TypeScript pour présenter une activité artisanale de soudure et de métallerie..',
+        'Site vitrine développé avec Angular et TypeScript pour présenter une activité artisanale de soudure et de métallerie.',
       logoUrl: '../../assets/images/project/devi_metal_logo.png',
       imageUrl: '../../assets/images/project/devi_metal_image.png',
       githubUrl: 'https://github.com/yusef-boulam/Metal_Angular',
