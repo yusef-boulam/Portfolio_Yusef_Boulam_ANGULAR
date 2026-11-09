@@ -1,6 +1,7 @@
 section{
-  width:50%;
-  margin: 117px auto 30px 161px;
+ width: 80%;
+  max-width: 750px;
+  margin: 117px auto 30px;
   min-width: 220px;
   line-height: 1.5;
  }
@@ -73,7 +74,7 @@ button:hover {
 
 @media screen and (max-width: 735px) {
   section{
-margin-top: 84px;
+margin-top: 80px;
   }
 
 
