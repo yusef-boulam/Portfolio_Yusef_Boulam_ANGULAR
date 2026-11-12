@@ -51,19 +51,6 @@ export class ProjectsService {
       tag: 'WordPress',
     },
     {
-      id: 1,
-      title: 'Booki',
-      description:
-        "Prototype de la Home Page d'un site web de planification de vacances.",
-      logoUrl: '../../assets/images/project/logo_booki.png',
-      imageUrl: '../../assets/images/project/booki_image.png',
-      githubUrl:
-        'https://github.com/yusef-boulam/Transformez_une_maquette_en_site_web_avec_HTML_-_CSS_Boulam_Yusef',
-      siteUrl:
-        'https://yusef-boulam.github.io/Transformez_une_maquette_en_site_web_avec_HTML_-_CSS_Boulam_Yusef/',
-      tag: 'HTML / CSS',
-    },
-    {
       id: 2,
       title: 'OhMyFood',
       description:
@@ -77,16 +64,16 @@ export class ProjectsService {
       tag: 'Animation CSS',
     },
     {
-      id: 3,
-      title: 'La Panthère',
+      id: 1,
+      title: 'Booki',
       description:
-        "Optimisation du site de l'agence de web design sur l'Accessibilité et le SEO.",
-      logoUrl: '../../assets/images/project/logo_laPanthere.svg',
-      imageUrl: '../../assets/images/project/laPanthere_image.png',
+        "Prototype de la Home Page d'un site web de planification de vacances.",
+      logoUrl: '../../assets/images/project/logo_booki.png',
+      imageUrl: '../../assets/images/project/booki_image.png',
       githubUrl:
-        'https://github.com/yusef-boulam/Nouvelle_version_optimisez_un_site_web_existant-ACCESSIBILITE-SEO',
+        'https://github.com/yusef-boulam/Transformez_une_maquette_en_site_web_avec_HTML_-_CSS_Boulam_Yusef',
       siteUrl:
-        'https://yusef-boulam.github.io/Nouvelle_version_optimisez_un_site_web_existant-ACCESSIBILITE-SEO/index.html',
+        'https://yusef-boulam.github.io/Transformez_une_maquette_en_site_web_avec_HTML_-_CSS_Boulam_Yusef/',
       tag: 'HTML / CSS',
     },
     {
@@ -98,6 +85,19 @@ export class ProjectsService {
       githubUrl:
         'https://github.com/yusef-boulam/Construisez_un_site_e_commerce_en_JavaScript',
       tag: 'JavaScript',
+    },
+    {
+      id: 3,
+      title: 'La Panthère',
+      description:
+        "Optimisation du site de l'agence de web design sur l'Accessibilité et le SEO.",
+      logoUrl: '../../assets/images/project/logo_laPanthere.svg',
+      imageUrl: '../../assets/images/project/laPanthere_image.png',
+      githubUrl:
+        'https://github.com/yusef-boulam/Nouvelle_version_optimisez_un_site_web_existant-ACCESSIBILITE-SEO',
+      siteUrl:
+        'https://yusef-boulam.github.io/Nouvelle_version_optimisez_un_site_web_existant-ACCESSIBILITE-SEO/index.html',
+      tag: 'HTML / CSS',
     },
   ];
 
